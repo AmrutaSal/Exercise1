@@ -1,0 +1,25 @@
+/*Create your first java application program that adds 
+   two numbers from passed  arguments. Compile and 
+   execute the program.*/
+   
+
+package Exercise1;
+
+public class SumOf2Num {
+	public static void main(String[] args){
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int sum = a + b;
+		System.out.println("The sum is : " +sum);
+		}
+}
+
+
+
+
+/*
+Output :
+20
+30
+The sum is : 50
+*/
